@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/my.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+
+<body>
+    <div class="element">
+        <div class="leftPannel">
+            <div class="bigClock">
+                <div id="clock" class="action-clock">00:00 </div>
+                <div id="date" class="action-date"></div>
+            </div>
+            <div class="theme-name">
+                <span id="host">Lucas theme / </span>
+            </div>
+        </div>
+
+
+        <div class="rightPannel">
+            <div class="form-title">
+                <span class="">Sign In </span>
+            </div>
+            <form class="my-form">
+
+                <div class="input-field">
+                    <div class="label">Session
+                    </div>
+                    <select id="session" tabindex="1">
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <div class="label">User Name
+                    </div>
+                    <select id="user" tabindex="1">
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <div class="label">Password
+                    </div>
+                    <input id="pass" placeholder="Password" type="password" tabindex="2" />
+                </div>
+                <div class="input-field">
+                    <button type="submit" tabindex="3" class="btn">Entre dans la matrix
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="message-bg"></div>
+    <div class="message">
+        <div class="message-content">
+            <h3 class="message-title">Titre du message</h3>
+            <p class="message-text">Une grosse erreur!!</p>
+            <button class="message-close" type="button" onclick="closeMessage();">Fermer</button>
+        </div>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script src="js/mock.js"></script>
+    <script src="js/clock.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

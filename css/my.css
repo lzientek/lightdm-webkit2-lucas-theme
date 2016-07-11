@@ -1,0 +1,119 @@
+body {
+    background-image: url('../wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    font-family: 'Poiret One';
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.element {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.leftPannel {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.leftPannel> .bigClock {
+    text-align: center;
+    margin-top: 150px;
+}
+.leftPannel> .theme-name {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32pt;
+}
+.bigClock .action-clock {
+    font-size: 110pt;
+}
+.bigClock .action-date {
+    font-size: 42pt;
+}
+.rightPannel {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.form-title {
+    width: 100%;
+    padding: 30px;
+padding-right: 100px;
+    text-align: center;
+    font-size: 26pt;
+    margin-top: 78px;
+}
+.my-form .input-field {
+    padding-left: 150px;
+    width: 100%;
+    float: left;
+    height: 40px;
+    font-size: 18pt;
+    margin-top: 10px;
+}
+.my-form .input-field .label {
+    width: 150px;
+    height: 40px;
+    float: left;
+}
+.my-form .input-field select, .input-field input[type="password"]{
+    width: 210px;
+    height: 30px;
+    float: left;
+    padding-left: 6px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+  -webkit-appearance: none;
+  font-size: 9pt;
+}
+.input-field input[type="password"]{
+  width: 201px;
+}
+.btn{
+  border-radius: 3px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 8px;
+  font-size: 11pt;
+  font-weight: lighter;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.btn:hover{
+  background-color: #DDD;
+}
+.btn:active{
+  background-color: #EEE;
+}
+.message-bg{
+  position: fixed;
+  z-index: 98;
+  background-color: #fff;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.message{
+  position: fixed;
+  z-index: 99;
+  background-color: #fff;
+  color: #8f8f8f;
+  bottom: 40%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.message-content{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
