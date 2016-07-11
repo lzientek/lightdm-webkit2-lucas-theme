@@ -53,6 +53,8 @@ var login = (function(lightdm, $) {
             lightdm.cancel_authentication();
         }
         lightdm.start_authentication(selected_user);
+        $('.co-en-cours').hide();
+
     };
 
 
@@ -104,6 +106,7 @@ var login = (function(lightdm, $) {
 
             $('form').on('submit', function(e) {
                 e.preventDefault();
+                $('.co-en-cours').show();
                 lightdm.provide_secret($pass.val());
             });
         });

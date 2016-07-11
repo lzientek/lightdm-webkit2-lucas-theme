@@ -83,7 +83,7 @@ padding-right: 100px;
   font-size: 11pt;
   font-weight: lighter;
   margin-left: 150px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .btn:hover{
   background-color: #DDD;
@@ -105,7 +105,7 @@ padding-right: 100px;
   position: fixed;
   z-index: 99;
   background-color: #fff;
-  color: #8f8f8f;
+  color: #595959;
   bottom: 40%;
   right: 0;
   left: 0;
@@ -116,4 +116,26 @@ padding-right: 100px;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+}
+.message-close{
+  border-radius: 3px;
+  border: 1px solid #f59696;
+  background-color: #f59696;
+  padding: 8px;
+  font-size: 11pt;
+  font-weight: lighter;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+.message-close:hover{
+  color: #fff;
+}
+.message-close:active{
+  background-color: #e07171;
+}
+.co-en-cours{
+  color: #fff;
+  font-size: 11pt;
+  margin-left: 150px;
+  margin-top: 10px;
 }
