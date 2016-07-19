@@ -37,7 +37,7 @@ body {
     width: 50%;
     height: 100%;
     float: right;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .form-title {
     width: 100%;
@@ -67,9 +67,10 @@ padding-right: 100px;
     padding-left: 6px;
     border-radius: 3px;
     border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.15);
     outline: none;
   -webkit-appearance: none;
+  color: #fff !important;
   font-size: 9pt;
 }
 .input-field input[type="password"]{
